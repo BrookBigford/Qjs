@@ -124,7 +124,7 @@
    };
 
    if (!window.Mousetrap) {
-      Q.import('../mousetrap.js', function() {
+      Q.import('../../mousetrap.js', function() {
          callback();
       });
    } else {
